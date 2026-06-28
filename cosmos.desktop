@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=CosmOS ERP
+Comment=Enterprise Resource Planning System
+Exec=xdg-open http://CosmOS.local:8081
+Icon=/home/saleel/git/CosmOS_project/frappe_docker/CosmOS_core/CosmOS_core/public/icons/CosmOS-512.png
+Terminal=false
+Categories=Office;Business;

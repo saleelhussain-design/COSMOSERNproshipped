@@ -1,0 +1,44 @@
+# Environment Variables
+.env
+
+# mounted volume
+sites
+
+development/*
+!development/README.md
+!development/installer.py
+!development/apps-example.json
+!development/vscode-example/
+
+# Pycharm
+.idea
+
+# VS Code
+.vscode/**
+!.vscode/extensions.json
+
+# VS Code devcontainer
+.devcontainer
+*.code-workspace
+
+# Python
+*.pyc
+__pycache__
+venv
+
+# NodeJS
+node_modules
+
+# VitePress
+**/.vitepress/dist
+**/.vitepress/cache
+cosmos_complete_delivery.tar.gz
+deployment/electron_app/dist/linux-unpacked/cosmos-erp-desktop
+final_delivery/cosmos_native_app_source.tar.gz
+deployment/electron_app/node_modules/
+cosmos_desktop/node_modules/
+cosmos_desktop/dist/
+cosmos_desktop/dist/
+cosmos_desktop/node_modules/
+deployment/electron_app/dist/
+deployment/electron_app/node_modules/
